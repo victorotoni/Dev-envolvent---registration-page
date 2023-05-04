@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>signup</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="form-image">
+        <img src="./undraw_static_website_re_x70h.svg" alt="" />
+      </div>
+      <div class="form">
+        <form action="#">
+          <div class="form-header">
+            <div class="title">
+              <h1>Sign up</h1>
+            </div>
+            <div class="login-button">
+              <button><a href="#">Login</a></button>
+            </div>
+          </div>
+
+          <div class="input-group">
+            <div class="input-box">
+              <label for="firstname">First Name</label>
+              <input
+                id="firstname"
+                type="text"
+                name="firstname"
+                placeholder="first name"
+                required
+              />
+            </div>
+
+            <div class="input-box">
+              <label for="lastname">Lastname</label>
+              <input
+                id="lastname"
+                type="text"
+                name="lastname"
+                placeholder="lastname"
+                required
+              />
+            </div>
+            <div class="input-box">
+              <label for="email">E-mail</label>
+              <input
+                id="email"
+                type="email"
+                name="email"
+                placeholder="e-mail"
+                required
+              />
+            </div>
+
+            <div class="input-box">
+              <label for="number">Mobile Number</label>
+              <input
+                id="number"
+                type="tel"
+                name="number"
+                placeholder="(xx) xxxx-xxxx"
+                required
+              />
+            </div>
+
+            <div class="input-box">
+              <label for="password">Password</label>
+              <input
+                id="password"
+                type="password"
+                name="password"
+                placeholder="password"
+                required
+              />
+            </div>
+
+            <div class="input-box">
+              <label for="confirmPassword">confirm password</label>
+              <input
+                id="confirmPassword"
+                type="password"
+                name="confirmPassword"
+                placeholder="Confirm Password"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="gender-inputs">
+            <div class="gender-title">
+              <h6>Gênero</h6>
+            </div>
+
+            <div class="gender-group">
+              <div class="gender-input">
+                <input id="female" type="radio" name="gender" />
+                <label for="female">Female</label>
+              </div>
+
+              <div class="gender-input">
+                <input id="male" type="radio" name="gender" />
+                <label for="male">Male</label>
+              </div>
+
+              <div class="gender-input">
+                <input id="others" type="radio" name="gender" />
+                <label for="others">Others</label>
+              </div>
+
+              <div class="gender-input">
+                <input id="none" type="radio" name="gender" />
+                <label for="none">I prefer not to say</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="continue-button">
+            <button><a href="#">Sign Up</a></button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
